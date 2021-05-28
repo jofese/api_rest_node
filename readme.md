@@ -1,10 +1,18 @@
 #Simple CRUD API REST NODE.JS
 
-#configure .env
-1. Create a .env from .env.example
-2. Set options database
+#1. configure .env
 
-#Create table in database
+
+ Create a .env with variables and set options database like name, user, password
+PORT=4000
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+DB_HOST=127.0.0.1
+
+
+
+#2. Create table in database
 
 CREATE TABLE `product` (
   `idProduct` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -24,9 +32,10 @@ CREATE TABLE `product` (
   PRIMARY KEY (`idProduct`)
 ); 
 
-#install project
+#3. install project
+
 npm install
 
-#run development
+#4. run development
 
 npm run dev
