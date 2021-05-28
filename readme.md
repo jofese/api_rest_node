@@ -4,10 +4,15 @@
 
 
  Create a .env with variables and set options database like name, user, password
+ 
 PORT=4000
+
 DB_NAME=
+
 DB_USER=
+
 DB_PASSWORD=
+
 DB_HOST=127.0.0.1
 
 
